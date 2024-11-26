@@ -26,13 +26,11 @@ def fizzbuzz(n):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
+    if len(sys.argv) < 2:
+        print("Missing number")
         print("Usage: ./0-fizzbuzz.py <number>")
+        print("Example: ./0-fizzbuzz.py 89")
         sys.exit(1)
 
-    try:
-        n = int(sys.argv[1])
-        fizzbuzz(n)
-    except ValueError:
-        print("Error: Argument must be an integer.")
-        sys.exit(1)
+    number = int(sys.argv[1])
+    fizzbuzz(number)
