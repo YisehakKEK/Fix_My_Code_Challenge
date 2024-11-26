@@ -1,1 +1,3 @@
-# This is the readme file
+# Fix My Code Challenge
+
+This project involves debugging and fixing five broken pieces of code across various languages (Python, JavaScript, Bash, and C). The tasks include resolving issues in a FizzBuzz implementation, printing squares correctly, handling edge cases in Bash scripts, fixing logic errors in Python code, and debugging a C program to produce the expected outputs. Each file corresponds to a specific challenge, and the fixes ensure proper functionality and adherence to the given requirements.
